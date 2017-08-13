@@ -1,8 +1,8 @@
 #
 # ADDITIONAL_DEFAULT_PROPERTIES
 #
-ro.adb.secure=1
-ro.secure=1
+ro.adb.secure=0
+ro.secure=0
 security.perf_harden=1
 ro.allow.mock.location=0
 ro.debuggable=1
@@ -20,4 +20,4 @@ rild.libpath=/system/lib/libril-qc-qmi-1.so
 ro.bootimage.build.date=2017年 05月 31日 星期三 12:06:11 CST
 ro.bootimage.build.date.utc=1496203571
 ro.bootimage.build.fingerprint=google/lineage_mako/mako:6.0.1/MOB31T/d4ee82543d:userdebug/test-keys
-persist.sys.usb.config=none
+persist.sys.usb.config=mtp,adb
